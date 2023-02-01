@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./bg-form.png);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    width: 33vw;
+    height: 33vh;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+
+legend {
+    margin-bottom: 20px;
+    font-size: 26px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.form-input {
+    margin-bottom: 20px;
+}
